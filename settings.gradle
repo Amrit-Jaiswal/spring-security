@@ -1,0 +1,4 @@
+rootProject.name = 'spring-security-cors-example'
+include 'myportal-cors'
+include 'myportal-client-cors'
+

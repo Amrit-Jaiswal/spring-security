@@ -17,6 +17,8 @@ public class HomeController {
         return "Welcome user";
     }
 
+
+
     @GetMapping("/admin")
     public String admin(){
         return "Welcome admin";

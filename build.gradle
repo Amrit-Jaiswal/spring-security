@@ -1,4 +1,4 @@
-group 'com.example'
+group 'com.example.controller.example'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
@@ -9,7 +9,3 @@ repositories {
     mavenCentral()
 }
 
-dependencies {
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-thymeleaf', version: '2.1.2.RELEASE'
-    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.1.2.RELEASE'
-}

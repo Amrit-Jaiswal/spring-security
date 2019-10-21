@@ -1,0 +1,16 @@
+group 'com.example.controller.example'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-web', version: '2.1.2.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-security', version: '2.1.2.RELEASE'
+    compile group: 'org.springframework.boot', name: 'spring-boot-devtools', version: '2.1.2.RELEASE'
+}

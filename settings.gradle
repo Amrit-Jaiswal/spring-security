@@ -4,4 +4,6 @@ include 'myportal-client-cors'
 include 'basic-security'
 include 'jdbc-authentication'
 include 'spring-security-jpa'
+include 'ssl-client'
+include 'ssl-server'
 

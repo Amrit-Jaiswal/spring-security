@@ -16,6 +16,6 @@
 *.iws
 *.iml
 *.ipr
-/out/
+*/out/*
 
 

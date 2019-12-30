@@ -17,5 +17,6 @@
 *.iml
 *.ipr
 */out/*
+*/build/*
 
 
